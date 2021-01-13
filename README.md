@@ -29,7 +29,7 @@ curl http://<your route>/rest/users/all
 
 <pre>
 
-$ oc rsh <your mysql pod> 
+$ oc rsh &ltyour mysql pod&gt
 sh-4.4$ mysql -udemouser -pPassw0rd_ demodb
 mysql: [Warning] Using a password on the command line interface can be insecure.
 Welcome to the MySQL monitor.  Commands end with ; or \g.
