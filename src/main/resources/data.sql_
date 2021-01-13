@@ -1,0 +1,5 @@
+--drop table if exists user;
+--create table user(id smallint auto_increment, name varchar(20), email varchar(40), primary key (id));
+
+create table products(id smallint auto_increment, name varchar(20), productId varchar(10), shortDesc varchar(50), descp varchar (200), price decimal(6,2), img varchar(40), primary key (id));
+
